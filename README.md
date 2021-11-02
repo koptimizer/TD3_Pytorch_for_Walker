@@ -4,6 +4,7 @@ Twin Delayed Deep Deterministic Policy Gradient for Gait Learning by Pytorch (Wa
 
 ## Usage
 - The ```requirements.txt``` file should list all Python libraries that TD3, and they will be installed using: </br>
+- todo...
 ```
 pip install -r requirements.txt
 ```
@@ -24,7 +25,7 @@ gym 0.15.4
 ```
 
 ## Result
-- todo...
+![](https://github.com/koptimizer/TD3_Pytorch_for_Walker/blob/main/pics/home3.gif) 
  
  
 ## References
