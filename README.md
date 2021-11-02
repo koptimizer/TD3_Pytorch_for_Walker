@@ -3,7 +3,7 @@ Twin Delayed Deep Deterministic Policy Gradient for Gait Learning by Pytorch (Wa
 
 
 ## Usage
-- The ```requirements.txt``` file should list all Python libraries that TD3, and they will be installed using: </br>
+- The ```requirements.txt``` file should list all Python libraries for TD3, and they will be installed using: </br>
 - todo...
 ```
 pip install -r requirements.txt
