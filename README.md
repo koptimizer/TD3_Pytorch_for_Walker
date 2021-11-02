@@ -28,7 +28,7 @@ gym 0.15.4
  
  
 ## References
-- Ffficial [TD3 paper](https://arxiv.org/abs/1802.09477) and [code](https://github.com/sfujim/TD3)
+- Official [TD3 paper](https://arxiv.org/abs/1802.09477) and [code](https://github.com/sfujim/TD3)
 - https://github.com/nikhilbarhate99/TD3-PyTorch-BipedalWalker-v2
 - [Stable baseline spinning up](https://spinningup.openai.com/en/latest/algorithms/td3.html)
 - https://sylim2357.github.io/paper%20review/td3/
