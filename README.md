@@ -1,10 +1,9 @@
 # TD3_Pytorch_for_Walker
-Twin Delayed Deep Deterministic Policy Gradient for Gait Learning by Pytorch (Walker2d-v2)
+Twin Delayed Deep Deterministic Policy Gradient for Gait Learning (Walker2d-v2) by Pytorch 
 
 
 ## Usage
-- The ```requirements.txt``` file should list all Python libraries for TD3, and they will be installed using: </br>
-- todo...
+- You can install a package for this repository through the command below: todo... </br>
 ```
 pip install -r requirements.txt
 ```
