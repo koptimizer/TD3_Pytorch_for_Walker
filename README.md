@@ -12,7 +12,7 @@ pip install -r requirements.txt
 ```
 python train.py
 ```
-- To test preTrained TD3 agent: </br>
+- To test trained TD3 agent: </br>
 ```
 python test.py
 ```
