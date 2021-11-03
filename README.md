@@ -3,10 +3,6 @@ Twin Delayed Deep Deterministic Policy Gradient for Gait Learning (Walker2d-v2) 
 
 
 ## Usage
-- You can install a package for this repository through the command below: todo... </br>
-```
-pip install -r requirements.txt
-```
 - To train a new TD3 agent: </br>
 ```
 python train.py
