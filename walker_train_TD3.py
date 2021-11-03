@@ -11,17 +11,17 @@ def train():
     ######### Hyperparameters #########
     env_name = "Walker2d-v2"
     log_interval = 10  # print avg reward after interval
-    random_seed = 0
-    run_version = 1 # version
+    random_seed = 4
+    run_version = 4 # version
     gamma = 0.99  # discount for future rewards
-    batch_size = 256  # num of transitions sampled from replay buffer
+    batch_size = 1024  # num of transitions sampled from replay buffer
     lr = 0.001
     exploration_noise = 0.1
     polyak = 0.995  # target policy update parameter (1-tau)
-    policy_noise = 0.2  # target policy smoothing noise
+    policy_noise = 0.25  # target policy smoothing noise
     noise_clip = 0.5
-    policy_delay = 4  # delayed policy updates parameter
-    max_episodes = 1000  # max num of episodes
+    policy_delay = 2  # delayed policy updates parameter
+    max_episodes = 350  # max num of episodes
     max_timesteps = 1000  # max timesteps in one episode
     ###################################
 
@@ -50,7 +50,7 @@ def train():
         os.makedirs(log_directory)
 
     filename = "TD3_{}_{}_{}".format(env_name, random_seed, run_version)
-    save_model_freq = 100
+    save_model_freq = 50
 
     start_time = datetime.now().replace(microsecond=0)
     print("Started training at GMT : ", start_time)
@@ -92,6 +92,9 @@ def train():
         if episode % save_model_freq == 0:
             policy.save(save_directory, filename)
             print("model save!")
+            log_end_time = datetime.now().replace(microsecond=0)
+            print("Training time log : {}".format(log_end_time - start_time))
+
 
         # print avg reward every log interval:
         if episode % log_interval == 0:

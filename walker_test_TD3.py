@@ -5,8 +5,8 @@ import time
 
 def test():
     env_name = "Walker2d-v2"
-    random_seed = 0
-    run_version = 1
+    random_seed = 4
+    run_version = 4
     n_episodes = 5
     lr = 0.002
     max_timesteps = 1000
